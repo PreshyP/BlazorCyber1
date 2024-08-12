@@ -1,0 +1,75 @@
+﻿@page "/registration"
+@using BlazorCyber.Models
+@using BlazorCyber.Services
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+@inject IAppService AppService
+
+<h3>Registration</h3>
+
+<EditForm Model="@registrationModel" OnValidSubmit="Submit" FormName="registrationForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label>First Name</label>
+        <InputText @bind-Value="registrationModel.FirstName" class="form-control" />
+        <ValidationMessage For="@(() => registrationModel.FirstName)" />
+    </div>
+
+    <div class="form-group">
+        <label>Last Name</label>
+        <InputText @bind-Value="registrationModel.LastName" class="form-control" />
+        <ValidationMessage For="@(() => registrationModel.LastName)" />
+    </div>
+
+    <div class="form-group">
+        <label>Email</label>
+        <InputText @bind-Value="registrationModel.Email" class="form-control" />
+        <ValidationMessage For="@(() => registrationModel.Email)" />
+    </div>
+
+    <div class="form-group">
+        <label>Password</label>
+        <InputText @bind-Value="registrationModel.Password" type="password" class="form-control" />
+        <ValidationMessage For="@(() => registrationModel.Password)" />
+    </div>
+
+    <div class="form-group">
+        <label>Gender</label>
+        <select @bind="registrationModel.Gender" class="form-control">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        <ValidationMessage For="@(() => registrationModel.Gender)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">
+        <span class="@_spinnerClass" role="status" aria-hidden="true"></span>
+        Register
+    </button>
+</EditForm>
+
+@code {
+    private RegistrationModel registrationModel = new();
+    private string _spinnerClass = "";
+
+    private async Task Submit()
+    {
+        _spinnerClass = "spinner-border spinner-border-sm";
+
+        var response = await AppService.RegisterUser(registrationModel);
+        if (response.IsSuccess)
+        {
+            await JSRuntime.InvokeVoidAsync("alert", "User Registered successfully!");
+            Navigation.NavigateTo("/"); // Ensure this path matches your login route
+        }
+        else
+        {
+            await JSRuntime.InvokeVoidAsync("alert", $"Registration failed: {response.ErrorMessage}");
+        }
+
+        _spinnerClass = "";
+        StateHasChanged();
+    }
+}

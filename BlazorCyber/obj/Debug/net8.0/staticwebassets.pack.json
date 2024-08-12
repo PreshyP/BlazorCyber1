@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BlazorCyber.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorCyber.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\audio.js",
+      "PackagePath": "staticwebassets\\audio.js"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\geolocationInterop.js",
+      "PackagePath": "staticwebassets\\geolocationInterop.js"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\interop.js",
+      "PackagePath": "staticwebassets\\interop.js"
+    },
+    {
+      "Id": "C:\\Users\\ishea\\OneDrive\\Desktop\\BlazorCyber\\BlazorCyber\\wwwroot\\manifest.json",
+      "PackagePath": "staticwebassets\\manifest.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlazorCyber.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BlazorCyber.props",
+      "PackagePath": "build\\BlazorCyber.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorCyber.props",
+      "PackagePath": "buildMultiTargeting\\BlazorCyber.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BlazorCyber.props",
+      "PackagePath": "buildTransitive\\BlazorCyber.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

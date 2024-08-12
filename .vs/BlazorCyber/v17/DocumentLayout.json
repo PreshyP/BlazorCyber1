@@ -1,0 +1,386 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\blazorcyber.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\blazorcyber.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\wwwroot\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\wwwroot\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\node_modules\\socket.io\\dist\\broadcast-operator.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:node_modules\\socket.io\\dist\\broadcast-operator.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\node_modules\\socket.io\\dist\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:node_modules\\socket.io\\dist\\index.d.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\services\\appservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\models\\mainresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\models\\mainresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\services\\iappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\services\\iappservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\models\\iauthenticaterequestandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\models\\iauthenticaterequestandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\models\\authenticaterequestandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\models\\authenticaterequestandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\components\\pages\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\components\\pages\\registration.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\models\\userbasicdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\models\\userbasicdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\models\\registrationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\models\\setting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ishea\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\components\\pages\\panicbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\components\\pages\\panicbutton.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|c:\\users\\ishea\\onedrive\\desktop\\p\\blazorcyber\\blazorcyber\\services\\mysignalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1840F023-3686-4F65-BAAA-3ECA1E072207}|BlazorCyber\\BlazorCyber.csproj|solutionrelative:blazorcyber\\services\\mysignalrservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\tsconfig.json",
+              "RelativeDocumentMoniker": "BlazorCyber\\tsconfig.json",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\tsconfig.json",
+              "RelativeToolTip": "BlazorCyber\\tsconfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-04T13:39:57.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tsconfig.json",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\wwwroot\\tsconfig.json",
+              "RelativeDocumentMoniker": "BlazorCyber\\wwwroot\\tsconfig.json",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\wwwroot\\tsconfig.json",
+              "RelativeToolTip": "BlazorCyber\\wwwroot\\tsconfig.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-04T13:39:28.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "broadcast-operator.d.ts",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\node_modules\\socket.io\\dist\\broadcast-operator.d.ts",
+              "RelativeDocumentMoniker": "node_modules\\socket.io\\dist\\broadcast-operator.d.ts",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\node_modules\\socket.io\\dist\\broadcast-operator.d.ts",
+              "RelativeToolTip": "node_modules\\socket.io\\dist\\broadcast-operator.d.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-04T13:27:29.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ce0010b1-93a1-33bb-8d9c-bcc1bf6c4873}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2086112457:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2076624733:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlazorCyber.csproj",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\BlazorCyber.csproj",
+              "RelativeDocumentMoniker": "BlazorCyber\\BlazorCyber.csproj",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\BlazorCyber.csproj",
+              "RelativeToolTip": "BlazorCyber\\BlazorCyber.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-31T21:10:23.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.d.ts",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\node_modules\\socket.io\\dist\\index.d.ts",
+              "RelativeDocumentMoniker": "node_modules\\socket.io\\dist\\index.d.ts",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\node_modules\\socket.io\\dist\\index.d.ts",
+              "RelativeToolTip": "node_modules\\socket.io\\dist\\index.d.ts",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAsAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-04T13:26:23.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\App.razor",
+              "RelativeDocumentMoniker": "BlazorCyber\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\App.razor",
+              "RelativeToolTip": "BlazorCyber\\Components\\App.razor",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABgAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-04T13:25:17.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "BlazorCyber\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\wwwroot\\index.html",
+              "RelativeToolTip": "BlazorCyber\\wwwroot\\index.html",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAAA8AAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-08-04T13:20:26.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\MainResponse.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Models\\MainResponse.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\MainResponse.cs",
+              "RelativeToolTip": "BlazorCyber\\Models\\MainResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:37:25.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppService.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Services\\AppService.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Services\\AppService.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Services\\AppService.cs",
+              "RelativeToolTip": "BlazorCyber\\Services\\AppService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAkwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T20:48:26.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Login.razor",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "BlazorCyber\\Components\\Pages\\Login.razor",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "BlazorCyber\\Components\\Pages\\Login.razor",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAC8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T18:33:21.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAppService.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Services\\IAppService.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Services\\IAppService.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Services\\IAppService.cs",
+              "RelativeToolTip": "BlazorCyber\\Services\\IAppService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAuwA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:21:03.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IAuthenticateRequestAndResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\IAuthenticateRequestAndResponse.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Models\\IAuthenticateRequestAndResponse.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\IAuthenticateRequestAndResponse.cs",
+              "RelativeToolTip": "BlazorCyber\\Models\\IAuthenticateRequestAndResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:20:30.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AuthenticateRequestAndResponse.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\AuthenticateRequestAndResponse.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Models\\AuthenticateRequestAndResponse.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\AuthenticateRequestAndResponse.cs",
+              "RelativeToolTip": "BlazorCyber\\Models\\AuthenticateRequestAndResponse.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:17:39.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserBasicDetail.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\UserBasicDetail.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Models\\UserBasicDetail.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\UserBasicDetail.cs",
+              "RelativeToolTip": "BlazorCyber\\Models\\UserBasicDetail.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:14:47.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Registration.razor",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\Registration.razor",
+              "RelativeDocumentMoniker": "BlazorCyber\\Components\\Pages\\Registration.razor",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\Registration.razor",
+              "RelativeToolTip": "BlazorCyber\\Components\\Pages\\Registration.razor",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAEAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T18:19:12.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RegistrationModel.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\RegistrationModel.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Models\\RegistrationModel.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\RegistrationModel.cs",
+              "RelativeToolTip": "BlazorCyber\\Models\\RegistrationModel.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswBIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:13:24.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Setting.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\Setting.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Models\\Setting.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Models\\Setting.cs",
+              "RelativeToolTip": "BlazorCyber\\Models\\Setting.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAAUAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T21:12:52.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "readme.txt",
+              "DocumentMoniker": "C:\\Users\\ishea\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ToolTip": "C:\\Users\\ishea\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "RelativeToolTip": "..\\..\\..\\..\\.nuget\\packages\\xamarin.essentials\\1.8.1\\readme.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-31T21:10:51.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "BlazorCyber\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "BlazorCyber\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-31T20:00:45.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MySignalRService.cs",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Services\\MySignalRService.cs",
+              "RelativeDocumentMoniker": "BlazorCyber\\Services\\MySignalRService.cs",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Services\\MySignalRService.cs",
+              "RelativeToolTip": "BlazorCyber\\Services\\MySignalRService.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAswEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T17:48:14.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PanicButton.razor",
+              "DocumentMoniker": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\PanicButton.razor",
+              "RelativeDocumentMoniker": "BlazorCyber\\Components\\Pages\\PanicButton.razor",
+              "ToolTip": "C:\\Users\\ishea\\OneDrive\\Desktop\\P\\BlazorCyber\\BlazorCyber\\Components\\Pages\\PanicButton.razor",
+              "RelativeToolTip": "BlazorCyber\\Components\\Pages\\PanicButton.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T17:42:26.602Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

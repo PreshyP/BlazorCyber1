@@ -1,0 +1,9 @@
+﻿@* NavMenu.razor *@
+<div>
+    @ChildContent
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+}

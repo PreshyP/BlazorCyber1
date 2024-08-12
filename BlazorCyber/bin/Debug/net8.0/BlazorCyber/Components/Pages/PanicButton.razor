@@ -1,0 +1,77 @@
+﻿@page "/panicbutton"
+@using BlazorCyber.Services
+@using Microsoft.AspNetCore.SignalR.Client
+@using System.Net.Http
+@using System.Text
+@using System
+
+<h3>Panic Button</h3>
+
+<button class="btn btn-danger" @onclick="SendHelpMessage">Help!</button>
+
+@code {
+    private HubConnection hubConnection;
+    private MySignalRService signalRService;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            hubConnection = new HubConnectionBuilder()
+                .WithUrl("http://localhost:7125/notifyHub")
+                .Build();
+
+            signalRService = new MySignalRService();
+            await signalRService.ConnectToHub();
+
+            hubConnection.On<string, string>("ReceiveMessage", (user, message) =>
+            {
+                Console.WriteLine($"Message received from {user}: {message}");
+            });
+
+            await hubConnection.StartAsync();
+            Console.WriteLine("SignalR connection started.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error connecting to SignalR hub: {ex.Message}");
+        }
+    }
+
+    private async Task SendHelpMessage()
+    {
+        try
+        {
+            if (hubConnection.State == HubConnectionState.Connected)
+            {
+                using var client = new HttpClient();
+                var message = new StringContent("Hello, SignalR!", Encoding.UTF8, "application/json");
+
+                var response = await client.PostAsync("http://localhost:5119/notifyHub", message);
+                response.EnsureSuccessStatusCode();
+
+                Console.WriteLine("Message sent successfully.");
+
+                // Optionally, you can also send a message through SignalR hub
+                await signalRService.SendMessageAsync("Username", "Help!");
+                Console.WriteLine("Help message sent via SignalR.");
+            }
+            else
+            {
+                Console.WriteLine("Connection not established. Cannot send message.");
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error sending message: {ex.Message}");
+        }
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (signalRService != null)
+        {
+            await signalRService.DisposeAsync();
+        }
+    }
+}

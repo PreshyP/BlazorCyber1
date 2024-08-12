@@ -1,0 +1,202 @@
+is_global = true
+build_property.XamlSourceGeneratorTracingFolder = 
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.ProjectTypeGuidsProperty = 
+build_property.MSBuildProjectFullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\BlazorCyber.csproj
+build_property.RootNamespace = BlazorCyber
+build_property.RootNamespace = BlazorCyber
+build_property.RootNamespace = BlazorCyber
+build_property.DefineConstantsProperty = TRACE,DEBUG,NET,NET8_0,NETCOREAPP,HAS_UNO,UNO_HAS_FRAMEWORKELEMENT_MEASUREOVERRIDE,UNO_HAS_NO_IDEPENDENCYOBJECT,UNO_REFERENCE_API
+build_property.Configuration = Debug
+build_property.IntermediateOutputPath = obj\Debug\net8.0\
+build_property.AndroidApplication = 
+build_property.OutputType = Exe
+build_property.MSBuildProjectName = BlazorCyber
+build_property.BuildingProject = false
+build_property.DesignTimeBuild = true
+build_property.UnoUISourceGeneratorDebuggerBreak = 
+build_property.BuildingInsideVisualStudio = true
+build_property.UnoPlatformIDE = 
+build_property.IsHotReloadHost = 
+build_property.UnoForceHotReloadCodeGen = 
+build_property.UnoForceIncludeProjectConfiguration = 
+build_property.UnoForceIncludeServerProcessorsConfiguration = 
+build_property.IsUnoHead = 
+build_property.IsUnoHead = 
+build_property.UnoDisableHotRestartHelperGeneration = 
+build_property.RuntimeIdentifier = 
+build_property.UnoRuntimeIdentifier = 
+build_property.UnoHotReloadMode = 
+build_property.SolutionFileName = BlazorCyber.sln
+build_property.LangName = en-US
+build_property.LangID = 1033
+build_property.SolutionDir = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\
+build_property.SolutionExt = .sln
+build_property.UseHostCompilerIfAvailable = true
+build_property.DefineExplicitDefaults = true
+build_property.Platform = AnyCPU
+build_property.SolutionPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber.sln
+build_property.SolutionName = BlazorCyber
+build_property.VSIDEResolvedNonMSBuildProjectOutputs = <VSIDEResolvedNonMSBuildProjectOutputs />
+build_property.DevEnvDir = C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\
+build_property.UseWPF = 
+build_property.UnoRemoteControlPort = 
+build_property.UnoRemoteControlHost = 
+build_property.UnoRemoteControlProcessorsPath = 
+build_property.UnoEnCLogPath = 
+build_property.UnoDisableBindableTypeProvidersGeneration = 
+build_property.ShouldWriteErrorOnInvalidXaml = 
+build_property.IsUiAutomationMappingEnabled = 
+build_property.ShouldAnnotateGeneratedXaml = 
+build_property.DefaultLanguage = 
+build_property.UnoPlatformTelemetryOptOut = 
+build_property.UnoPlatformDefaultSymbolsFontFamily = ms-appx:///Uno.Fonts.Fluent/Fonts/uno-fluentui-assets.ttf
+build_property.ExcludeXamlNamespacesProperty = win,not_mux
+build_property.IncludeXamlNamespacesProperty = xamarin,not_win,legacy,netstdref
+build_property.XamlGeneratorAnalyzerSuppressionsProperty = nventive.Usage-NV0056,nventive.Usage-NV0058,nventive.Usage-NV1003,nventive.Usage-NV0085,nventive.Usage-NV2001,nventive.Usage-NV2003,nventive.Usage-NV2004,nventive.Usage-NV2005,csharp-618 // Ignore obsolete members warnings,csharp-105 // Ignore duplicate namespaces,csharp-1591 // Ignore missing XML comment warnings,csharp-CS8669 // Ignore annotation for nullable reference types,dotnet-CA1001
+build_property.UnoEnableXamlFuzzyMatching = 
+build_property.UnoXamlResourcesTrimming = 
+build_property.BaseIntermediateOutputPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\obj\
+build_property.AssemblyName = BlazorCyber
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.ProjectDir = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/App.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\App.razor
+build_metadata.AdditionalFiles.Identity = Components\App.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/Counter.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\Counter.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\Counter.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\Error.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\Error.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/Geolocation.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xHZW9sb2NhdGlvbi5yYXpvcg==
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\Geolocation.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\Geolocation.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/Home.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\Home.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\Home.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/Login.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMb2dpbi5yYXpvcg==
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\Login.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\Login.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/NavMenu.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xOYXZNZW51LnJhem9y
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\NavMenu.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\NavMenu.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/PanicButton.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQYW5pY0J1dHRvbi5yYXpvcg==
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\PanicButton.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\PanicButton.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/Registration.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWdpc3RyYXRpb24ucmF6b3I=
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\Registration.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\Registration.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Pages/SpeechToText.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTcGVlY2hUb1RleHQucmF6b3I=
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Pages\SpeechToText.razor
+build_metadata.AdditionalFiles.Identity = Components\Pages\SpeechToText.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Routes.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Routes.razor
+build_metadata.AdditionalFiles.Identity = Components\Routes.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/_Imports.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\_Imports.razor
+build_metadata.AdditionalFiles.Identity = Components\_Imports.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Layout\MainLayout.razor
+build_metadata.AdditionalFiles.Identity = Components\Layout\MainLayout.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = b-dbh3p3b6r6
+
+[C:/Users/ishea/OneDrive/Desktop/P/BlazorCyber/BlazorCyber/Components/Layout/NavMenu.razor]
+build_metadata.AdditionalFiles.SourceItemGroup = 
+build_metadata.AdditionalFiles.Link = 
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.FullPath = C:\Users\ishea\OneDrive\Desktop\P\BlazorCyber\BlazorCyber\Components\Layout\NavMenu.razor
+build_metadata.AdditionalFiles.Identity = Components\Layout\NavMenu.razor
+build_metadata.AdditionalFiles.XamlRuntime = 
+build_metadata.AdditionalFiles.CssScope = b-rz96hje0j3

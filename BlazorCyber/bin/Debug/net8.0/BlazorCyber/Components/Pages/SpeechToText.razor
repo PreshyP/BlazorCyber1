@@ -1,0 +1,69 @@
+﻿@page "/speech-to-text"
+@using BlazorCyber.Services
+@using System.Globalization
+@using System.Threading
+@inject ISpeechToText SpeechToTextService
+
+<h3>Speech to Text</h3>
+
+<div>
+    <button class="btn btn-primary" @onclick="Listen">Listen</button>
+    <button class="btn btn-secondary" @onclick="ListenCancel">Cancel</button>
+</div>
+
+@if (!string.IsNullOrEmpty(RecognitionText))
+{
+    <p>@RecognitionText</p>
+}
+
+@code {
+    private string RecognitionText;
+    private CancellationTokenSource tokenSource;
+
+    private async Task Listen()
+    {
+        tokenSource = new CancellationTokenSource();
+
+        var isAuthorized = await SpeechToTextService.RequestPermissions();
+        if (isAuthorized)
+        {
+            try
+            {
+                // Call the speech-to-text service to start listening
+                RecognitionText = await SpeechToTextService.Listen(
+                    CultureInfo.GetCultureInfo("en-US"),
+                    new Progress<string>(partialText =>
+                    {
+                        RecognitionText = partialText; // Update the text as it's recognized
+                        StateHasChanged(); // Ensure UI is updated
+                    }),
+                    tokenSource.Token // Pass cancellation token
+                );
+            }
+            catch (OperationCanceledException)
+            {
+                Console.WriteLine("Speech to text operation was canceled.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error: {ex.Message}");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No microphone access");
+        }
+    }
+
+    private void ListenCancel()
+    {
+        tokenSource?.Cancel(); // Cancel the operation
+        tokenSource?.Dispose(); // Dispose the CancellationTokenSource
+    }
+
+    // Dispose method to clean up resources
+    public void Dispose()
+    {
+        tokenSource?.Dispose();
+    }
+}

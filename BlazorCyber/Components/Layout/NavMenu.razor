@@ -1,0 +1,59 @@
+﻿<!-- YourLayout.razor -->
+<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">BlazorCyber</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="counter">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="weather">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Weather
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="speech-to-text">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> SpeechToText
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="panicButton">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> PanicButton
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="geolocation">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> GeoLocation
+            </NavLink>
+        </div>
+
+        <!-- Custom Navigation Links -->
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/registration">
+                Registration
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="/profile">
+                Profile
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+

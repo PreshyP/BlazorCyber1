@@ -1,0 +1,54 @@
+﻿@page "/"
+@using BlazorCyber.Models
+@inject NavigationManager Navigation
+@inject IJSRuntime JSRuntime
+
+<h3>Login</h3>
+
+<EditForm Model="@loginModel" OnValidSubmit="Submit" FormName="loginForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group">
+        <label for="email">Email address</label>
+        <InputText type="email" id="email" class="form-control" @bind-Value="loginModel.Email" placeholder="Enter email" />
+        <ValidationMessage For="@(() => loginModel.Email)" />
+    </div>
+    <div class="mt-2 form-group">
+        <label for="password">Password</label>
+        <InputText type="password" id="password" class="form-control" @bind-Value="loginModel.Password" placeholder="Password" />
+        <ValidationMessage For="@(() => loginModel.Password)" />
+    </div>
+
+    <div class="mt-2 text-end">
+        <NavLink class="nav-link" href="/registration">
+            <span>Click here to create a new account?</span>
+        </NavLink>
+    </div>
+
+    <div class="text-center mt-2">
+        <button class="btn btn-primary" type="submit">
+            <span class="@_spinnerClass" role="status" aria-hidden="true"></span>
+            SignIn
+        </button>
+    </div>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+
+    private string _spinnerClass = "";
+
+    private async Task Submit()
+    {
+        _spinnerClass = "spinner-border spinner-border-sm";
+
+        // Simulate login process
+        await Task.Delay(1000); // Simulate a delay for login process
+
+        await JSRuntime.InvokeVoidAsync("alert", "Login successful!");
+        Navigation.NavigateTo("/home");
+
+        _spinnerClass = "";
+        StateHasChanged();
+    }
+}

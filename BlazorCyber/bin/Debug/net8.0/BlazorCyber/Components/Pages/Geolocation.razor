@@ -1,0 +1,70 @@
+﻿@page "/geoLocation"
+@inject IJSRuntime js
+
+<h3>GeoLocation</h3>
+
+<p>GPS tracking with Blazor.</p>
+
+<button class="btn btn-primary" @onclick="GetGeolocation">Get my Location</button>
+<hr />
+
+@if (geolocationPosition != null)
+{
+    @if (geolocationPosition.Coords != null)
+    {
+        <div>
+            Latitude: @geolocationPosition.Coords.Latitude<br />
+            Longitude: @geolocationPosition.Coords.Longitude<br />
+            <a target="_blank" href="@MapURL">View in Google Map</a>
+        </div>
+    }
+    else
+    {
+        <div>
+            Unable to retrieve coordinates.
+        </div>
+    }
+}
+
+@code {
+    private GeolocationPosition geolocationPosition;
+    private string MapURL;
+
+    private async Task GetGeolocation()
+    {
+        try
+        {
+            Console.WriteLine("Attempting to get geolocation...");
+            geolocationPosition = await js.InvokeAsync<GeolocationPosition>("geolocationInterop.getCurrentPosition", new
+            {
+                enableHighAccuracy = true,
+                maximumAge = 3600000, // 1 hour in milliseconds
+                timeout = 60000 // 1 minute in milliseconds
+            });
+
+            if (geolocationPosition != null && geolocationPosition.Coords != null)
+            {
+                Console.WriteLine($"Geolocation obtained: {geolocationPosition.Coords.Latitude}, {geolocationPosition.Coords.Longitude}");
+                MapURL = $"https://www.google.com/maps/place/{geolocationPosition.Coords.Latitude},{geolocationPosition.Coords.Longitude}";
+            }
+            else
+            {
+                Console.WriteLine("Geolocation or coordinates are null.");
+            }
+        }
+        catch (JSException ex)
+        {
+            Console.WriteLine($"Error getting geolocation: {ex.Message}");
+        }
+        catch (ObjectDisposedException ex)
+        {
+            Console.WriteLine($"Object disposed exception: {ex.Message}");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Unexpected error: {ex.Message}");
+        }
+    }
+}
+
+
